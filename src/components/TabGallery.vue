@@ -35,6 +35,7 @@ export default {
     //Close explosion if it was enabled;
     const iframe = document.getElementById('model-iframe');
     iframe.contentWindow.postMessage({func: "explode", value: 0}, "*");
+    iframe.contentWindow.postMessage({func:"gpr", value:false},"*");
   },
   data() {
     return {

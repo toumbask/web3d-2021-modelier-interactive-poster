@@ -30,6 +30,7 @@ export default {
     //Close explosion if it was enabled;
     const iframe = document.getElementById('model-iframe');
     iframe.contentWindow.postMessage({func:"explode", value:0},"*");
+    iframe.contentWindow.postMessage({func:"gallery", value:false},"*");
   },
   data(){
     return{
@@ -39,7 +40,7 @@ export default {
   methods:{
     toggleGallery(val){
       const iframe = document.getElementById('model-iframe');
-      iframe.contentWindow.postMessage({func:"gallery", value:val},"*");
+      iframe.contentWindow.postMessage({func:"gpr", value:val},"*");
     }
   }
 }

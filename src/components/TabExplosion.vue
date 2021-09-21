@@ -32,6 +32,7 @@ export default {
     //Close gallery if open
     const iframe = document.getElementById('model-iframe');
     iframe.contentWindow.postMessage({func:"gallery", value:false},"*");
+    iframe.contentWindow.postMessage({func:"gpr", value:false},"*");
   },
   data() {
     return {

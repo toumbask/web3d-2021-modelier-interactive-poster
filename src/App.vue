@@ -23,7 +23,7 @@
         <!-- ... -->
         <div class="col-span-2">
           <ModelierIframe
-            url="http://127.0.0.1:8000/models/d829355f-4492-40d0-a949-af7f3dfcd176/v2/embed/"></ModelierIframe>
+            url="https://modelier.us.aldryn.io/models/13e7c708-4b03-40d0-93b5-d94f45629046/v2/embed/"></ModelierIframe>
 
         </div>
     </div>
