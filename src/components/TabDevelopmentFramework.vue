@@ -1,6 +1,6 @@
 <template>
   <div>
-  <h3 class="text-3xl text-left text-semibold">General</h3>
+<!--  <h3 class="text-3xl text-left text-semibold">General</h3>-->
         <p class="text-left text-sm leading-relaxed mt-4">
           The platform is open-sourced and aims to work as a higher-level development framework to support the easier
           development of interactive tools for 3D model visualization on the web.
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'TabGeneral',
+  name: 'TabDevelopmentFramework',
 }
 </script>
 
