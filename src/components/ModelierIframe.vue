@@ -1,5 +1,5 @@
 <template>
-  <iframe :src="url" width="100%" height="500" onload="alert('myframe is loaded');">
+  <iframe :src="url" width="100%" height="500" onload="">
 
   </iframe>
 </template>
