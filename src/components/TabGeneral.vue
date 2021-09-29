@@ -1,21 +1,34 @@
 <template>
   <div>
-  <h3 class="text-3xl text-left text-semibold">General</h3>
-        <p class="text-left text-sm leading-relaxed mt-4">
-          The platform is open-sourced and aims to work as a higher-level development framework to support the easier
-          development of interactive tools for 3D model visualization on the web.
-          The IH-AT platform handles all the required processes for authorization and initialization purposes, isolating
-          the steps needed to develop every single interactive tool.
-          Docker.
-        </p>
-        <p class="text-left text-sm leading-relaxed mt-4">
-          This approach facilitates non-expert JavaScript
-          users, without a-priori knowledge of the Back-end technologies, to customize the existing platform
-          capabilities and add new interactive WebGL features.
-          The IH-AT platform is currently pre-configured to be easily deployable in containerized environments using
-          Docker.
-        </p>
-    </div>
+    <p class="text-left text-sm leading-relaxed mt-4">
+      The <a href="http://ihat.cyi.ac.cy">IH-AT platform</a> has been developed to enable non-technical users to quickly
+      deploy, configure and visualize three-dimensional interactive scenes on the web. Through the proposed platform
+      architecture, three-dimensional models are available online via the Potree viewer.
+      </p>
+    <p class="text-left text-sm leading-relaxed mt-4">
+    The standard Potree Libraries
+      (v1.7.2) were extended to create several custom-made interactive tools and allow the visualization of both 2D and
+      3D data in the same web environment. Additionally, an admin panel was created and tailored to allow the
+      customization of the front-end for different applications.
+    </p>
+    <p class="text-left text-sm leading-relaxed mt-4">
+      The IH-AT platform is open-sourced, and it functions as a highly configurable application development framework
+      that can:
+    </p>
+    <ul class="list-inside text-sm list-disc text-left mt-2">
+      <li>dynamically handle multimedia files and 3D models,</li>
+      <li>be adapted and extended according to the project’s needs,</li>
+      <li>benefit of a large community of developers and users.</li>
+    </ul>
+    <p class="text-left text-sm leading-relaxed mt-4">
+      The platform is open-sourced and aims to work as a higher-level development framework to support the easier
+      development of interactive tools for 3D model visualization on the web.
+      The IH-AT platform handles all the required processes for authorization and initialization purposes, isolating
+      the steps needed to develop every single interactive tool.
+      Docker.
+    </p>
+
+  </div>
 </template>
 
 <script>
