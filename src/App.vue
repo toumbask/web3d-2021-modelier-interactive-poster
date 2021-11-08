@@ -79,7 +79,7 @@
           </button>
 
         </div>
-      <div class="flex flex-col overflow-auto">
+      <div class="flex flex-col overflow-auto bg-gray-200">
         <div class="px-8 bg-gray-200">
           <div class="block w-fulltext-center font-semibold color-gray-600 mt-8 ">Features</div>
           <TabbedContent v-bind:tabs="tabs" v-bind:current="current" v-on:tab-selected="current = $event"
