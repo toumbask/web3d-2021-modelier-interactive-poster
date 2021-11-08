@@ -67,7 +67,7 @@
       </div>
     </div>
     <div class="grid grid-cols-3 gap-0" style="height: 100vh;">
-      <div class="flex flex-col justify-end content-end items-end px-8 py-1 fixed right-0 top-0">
+      <div class="flex flex-col justify-end content-end items-end px-8 py-1 fixed right-0 top-0 z-10">
           <h1 class="text-extrabold underline text-normal text-right text-gray-200">Invisible Heritage - Analysis and
             Technology Digital
             Platform
@@ -81,6 +81,7 @@
         </div>
       <div class="flex flex-col overflow-auto bg-gray-200">
         <div class="px-8 bg-gray-200">
+          <div class="flex justify-center"><a href="https://www.cyi.ac.cy/" target="_blank"><img class="h-16" src="@/assets/cyilogo.png" /></a></div>
           <div class="block w-fulltext-center font-semibold color-gray-600 mt-8 ">Features</div>
           <TabbedContent v-bind:tabs="tabs" v-bind:current="current" v-on:tab-selected="current = $event"
                          class="mt-4"></TabbedContent>
