@@ -13,8 +13,8 @@
                         toggleOn: 'bg-indigo-600 border-indigo-500 justify-start text-white',
                         toggleOff: 'bg-gray-200 border-gray-200 justify-end text-gray-700'
                     }" v-on:change="toggleGallery"></Toggle>
-      <span class="text-sm font-medium pl-4 block" v-if="galleryOpen">Hide GPR Data</span>
-      <span class="text-sm font-medium pl-4 block" v-if="!galleryOpen">Show GPR Data</span>
+      <span class="text-sm font-medium pl-4 block" v-if="galleryOpen">Hide GPR Menu</span>
+      <span class="text-sm font-medium pl-4 block" v-if="!galleryOpen">Show GPR Menu</span>
     </div>
     <p class="text-left text-sm leading-relaxed mt-4">
        Each image is associated with parameters such as Easting, Northing, and

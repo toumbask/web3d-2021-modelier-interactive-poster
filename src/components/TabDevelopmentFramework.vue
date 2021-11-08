@@ -15,6 +15,13 @@
           The IH-AT platform is currently pre-configured to be easily deployable in containerized environments using
           Docker.
         </p>
+        <p class="text-left mt-8">
+          <ul class="list-inside list-disc">
+          <li><small><a href="https://github.com/APAC-StarC/modelier" target="_blank" class="text-blue-500 hover:underline">Github Repository</a></small></li>
+          <li><small><a href="https://modelier.us.aldryn.io/models/13e7c708-4b03-40d0-93b5-d94f45629046/v2/embed/" target="_blank" class="text-blue-500 hover:underline">Check the full model</a></small></li>
+          </ul>
+        </p>
+
     </div>
 </template>
 

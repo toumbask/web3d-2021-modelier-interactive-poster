@@ -5,6 +5,7 @@
       The <a href="http://ihat.cyi.ac.cy">IH-AT platform</a> has been developed to enable non-technical users to quickly
       deploy, configure and visualize three-dimensional interactive scenes on the web. Through the proposed platform
       architecture, three-dimensional models are available online via the Potree viewer.
+    </p>
     <p class="text-left text-sm leading-relaxed mt-4">
     The standard Potree Libraries
       (v1.7.2) were extended to create several custom-made interactive tools and allow the visualization of both 2D and
@@ -35,10 +36,6 @@
         <li><a class="text-blue-500 hover:underline" href="https://www.cyi.ac.cy/index.php/cyi/general-information/administration-people/itemlist/user/172-marina-faka.html" target="_blank">Marina Faka</a></li>
       </ul>
     </p>
-    <p class="mt-8">
-      <small><a href="https://modelier.us.aldryn.io/models/13e7c708-4b03-40d0-93b5-d94f45629046/v2/embed/" target="_blank" class="hover:text-blue-500 hover:underline">You can view the full model here</a></small>
-    </p>
-
   </div>
 </template>
 
